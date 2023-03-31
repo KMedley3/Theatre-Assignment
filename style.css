@@ -1,5 +1,98 @@
-* {
+ /* * {
     border: 1px solid red
+}  */
+
+
+.nav-container {
+
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.nav-header {
+
+    width: 35%;
+    
+}
+
+.item-container {
+
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.nav-items {
+    
+
+    flex-grow: 1;
+    margin-top: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-p {
+
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.top-background-container {
+    background-image: url(static/theater-image-background.png);
+    background-size: 1196px 700px;
+    min-height: 700px;
+    z-index: -1;
+}
+
+
+h1 {
+
+    margin-top: 0px;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px black;
+    font-weight: 100;
+}
+
+
+
+
+
+button {
+    background-color: rgb(252, 187, 67);
+    border: 1px;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    color: white;
+    font-size: 20px;
+}
+
+.date {
+
+    background-color: rgb(240, 239, 239);
+    color: black;
+    border: 1px;
+    border-style: solid;
+    padding-left: 65px;
+    font-size: large;
+}
+
+.container-button {
+
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 50px;
+
 }
 
 .container-row {
@@ -14,12 +107,18 @@
 
     display: flex;
     flex-direction: row;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
 }
 
 .container-row3 {
 
     display: flex;
     flex-direction: row;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
 
 }
 
@@ -27,6 +126,9 @@
 
     display: flex;
     flex-direction: row;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
 
 }
 
@@ -34,6 +136,9 @@
 
     display: flex;
     flex-direction: row;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
 }
 
 .container-button {
@@ -64,27 +169,54 @@
 }
 
 
-.email {
-    /* margin-top: 10px;
-    margin-bottom: 50px; */
-}
-
-
 .map-container {
-    padding: 20px;
+    
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-right: 20px;
+    
 }
 
+.footheader {
+    font-size: 30px;
+    margin-top: 40px;
+}
 
 h3 {
     font-size: large;
     margin: 0px;
+    padding-top: 15px;
 }
 
 .bottom {
     display: flex;
     flex-direction: row;
+    background-color: black;
+    color: white;
+    
 }
 
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
+.socials div {
+    flex: 1;
+    padding-bottom: 30px;
+    padding-left: 20px;
 
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+
+    color: blue;
+}
 
